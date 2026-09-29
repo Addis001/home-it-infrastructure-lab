@@ -7,6 +7,9 @@ I made this project to learn more about IT infrastructure and working with Linux
 I started by installing Ubuntu Server and getting the network working. I used NAT so the server could access the internet and a host-only adapter so I could connect to it directly from Windows.
 
 After that, I installed SSH and was able to remotely log into the Ubuntu server through Windows PowerShell. I also set up UFW firewall rules to allow SSH and web traffic.
+## Network Diagram
+
+![Network diagram for my home IT infrastructure lab](network-diagram.png)
 
 ## User Management
 
