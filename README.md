@@ -39,3 +39,19 @@ After I got it working, I replaced the default Nginx page with my own page showi
 Before this project, I had more experience with programming than managing servers. This project helped me understand how networking, Linux permissions, firewalls, SSH, and web servers work together.
 
 I also got experience troubleshooting mistakes and testing each part of the server before moving on to the next step.
+## Screenshots
+
+### SSH Connection
+I connected to the Ubuntu server remotely from my Windows PC using PowerShell and SSH.
+
+![SSH connection from Windows PowerShell](ssh-connection.png)
+
+### User and Permissions Test
+I logged in as `labuser` and tested access to the shared directory by creating and reading a test file.
+
+![Linux user and permissions test](permissions-test.png)
+
+### Web Server
+I tested the Nginx server from my Windows PC and accessed the custom lab page through the server's private IP address.
+
+![Nginx web server running on Ubuntu](nginx-web-server.png)
