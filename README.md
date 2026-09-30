@@ -55,3 +55,6 @@ I logged in as `labuser` and tested access to the shared directory by creating a
 I tested the Nginx server from my Windows PC and accessed the custom lab page through the server's private IP address.
 
 ![Nginx web server running on Ubuntu](nginx-web-server.png)
+After confirming the Nginx server was working, I replaced the default page with my own page showing the configuration of my IT infrastructure lab.
+
+![Custom IT Infrastructure Lab page](custom-lab-page.png)
