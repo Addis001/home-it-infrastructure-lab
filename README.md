@@ -36,10 +36,11 @@ After I got it working, I replaced the default Nginx page with my own page showi
 
 ## What I Learned
 
-Before this project, I had more experience with programming than managing servers. This project helped me understand how networking, Linux permissions, firewalls, SSH, and web servers work together.
+Before this project, I had more experience with programming than working with servers. Setting everything up helped me understand how the different parts of a server actually work together.
+I ran into a few problems while setting it up. At first SSH wasn't running, so I had to figure out how to start and enable the service. I also had to figure out the difference between NAT and host-only networking before I could connect to the server directly from my Windows PC. I made a few command mistakes along the way too, which helped me get more comfortable troubleshooting Linux.
+By the end I was able to connect to the server through SSH, manage users and permissions, configure the firewall, and access the Nginx web server from my Windows PC.
 
-I also got experience troubleshooting mistakes and testing each part of the server before moving on to the next step.
-## Screenshots
+
 
 ### SSH Connection
 I connected to the Ubuntu server remotely from my Windows PC using PowerShell and SSH.
